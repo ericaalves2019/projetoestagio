@@ -1,0 +1,149 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+.topo{
+	display:flex;
+	
+	height: 140px;
+	justify-content: center;
+	align-items: center;
+	background-color: #006557;
+}
+
+.campodetexto{
+	height: 40px;
+	border-radius: 10px;
+	border: 0;
+	width: 80%;
+	padding-left: 40px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	background: white url("icone.png") no-repeat left;
+	background-size: 20px;
+	background-position: 10px;
+}
+
+.conteudo{
+	padding: 20px;
+
+}
+
+.titulo{
+
+}
+
+.carta.foto1 {
+	background-image: url("foto1.jpg");
+	background-size: cover;
+}
+
+.carta.foto2 {
+	background-image: url("foto2.jpg");
+	background-size: cover;
+}
+
+.carta.foto3 {
+	background-image: url("foto3.jpg");
+	background-size: cover;
+}
+
+.carta{
+	height: 250px;
+	display: flex;
+	justify-content: end;
+	flex-direction: column;
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 20px;
+}
+
+.botao{
+	min-width: 300px;
+    max-width: 60%;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	font-size: 18px;
+	background-color: white;
+	color: #006557;
+	font-weight: bolder;
+	border: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.indicador{
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+h2{
+	font-size: 28px;
+	width: 200px;
+	color: white;
+}
+
+.vermais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+	font-weight: bold;
+	color: #07689F;
+	cursor: pointer;
+}
+
+h5 {
+	margin: 0;
+}
+
+.card-final {
+    height: 120px;
+    min-width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-final.comida {
+	background-image: url("comida.png");
+	background-size: cover;
+}
+
+.card-final.remedio {
+	background-image: url("injecao.png");
+	background-size: cover;
+}
+
+.final {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloCor {
+    height: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    justify-content: center;
+    width: 100px;
+}
+
+.tituloCor.laranja {
+	background-color: #ff7f0f;
+}
+
+.tituloCor.roxo {
+	background-color: #540094;
+	width: 120px;
+}
+
+h5.titulofinal {
+    width: 150px;
+    color: white;
+}
